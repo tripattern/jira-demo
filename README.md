@@ -2,12 +2,14 @@
 
 ## Run Locally
 * Ensure there is no credentials.json file
+* Run npm start
+
+## Ngrok for local hosting in development phase
 * Run ngrok
-``
+```
 ngrok http 3000
 ```
 * Copy the ngrok url into the development localBaseUrl of config.json
-* Run npm start
 
 ## Atlassian Connect Setup
 ```
