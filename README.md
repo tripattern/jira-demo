@@ -1,5 +1,14 @@
 # jira-demo
 
+## Run Locally
+* Ensure there is no credentials.json file
+* Run ngrok
+``
+ngrok http 3000
+```
+* Copy the ngrok url into the development localBaseUrl of config.json
+* Run npm start
+
 ## Atlassian Connect Setup
 ```
 npm install atlas-connect
