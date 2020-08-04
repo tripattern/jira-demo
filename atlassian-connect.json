@@ -1,11 +1,11 @@
 {
-    "baseUrl": "{{localBaseUrl}}",
+    "baseUrl": "https://89f85884d0e1.ngrok.io",
     "key": "atlassian-connect-jira-addon",
-    "description": "Add-on which demonstrates usage of Atlassian Connect in JIRA",
-    "name": "Example Connect JIRA Add-on",
+    "description": "Jira demo add-on",
+    "name": "Jira demo add-on",
     "vendor": {
-        "name": "Atlassian",
-        "url": "http://www.atlassian.com/"
+        "name": "tripattern",
+        "url": "https://tripattern.com"
     },
     "enableLicensing": true,
     "authentication": {
@@ -23,7 +23,7 @@
         "webItems": [
             {
                 "name": {
-                    "value": "My dropdown"
+                    "value": "My jira demo"
                 },
                 "location": "system.top.navigation.bar",
                 "url": "/hello-world",
