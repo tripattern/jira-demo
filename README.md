@@ -1,16 +1,21 @@
 # jira-demo
 
-## Run Locally
+## Access app from cloud that is hosted locally
 * Ensure there is no credentials.json file
 * Run npm start
-
-## Ngrok for local hosting in development phase
 * Run ngrok
 ```
 ngrok http 3000
 ```
-* Copy the ngrok url into the development localBaseUrl of config.json
-
+* Copy the ngrok url into the "baseUrl" of atlassian-connect.json
+* For a production setup
+  * Copy the ngrok url into the development "localBaseUrl" of config.json
+* Test you can access the following URL:
+  * https://custom_domain.ngrok.io/atlassian-connect.json
+* Navigate to Jira settings (cog icon) > Apps > Manage apps
+* Click "Upload app"
+  * Enter the ngrok url with atlassian connect json
+    * https://custom_domain.ngrok.io/atlassian-connect.json
 ## Atlassian Connect Setup
 ```
 npm install atlas-connect
@@ -20,7 +25,8 @@ npm install atlas-connect
 ```
 
 ### References
-* [Getting started](https://developer.atlassian.com/cloud/confluence/getting-started/)
+* [Jira Getting started](https://developer.atlassian.com/cloud/jira/platform/getting-started/)
+* [Confluence Getting started](https://developer.atlassian.com/cloud/confluence/getting-started/)
 
 ## Atlassian Base Project Readme
 ### Atlassian Add-on using Express
