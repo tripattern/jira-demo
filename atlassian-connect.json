@@ -1,4 +1,5 @@
 {
+    /*baseUrl": "{{localBaseUrl}}",*/
     "baseUrl": "https://89f85884d0e1.ngrok.io",
     "key": "atlassian-connect-jira-addon",
     "description": "Jira demo add-on",
@@ -7,7 +8,7 @@
         "name": "tripattern",
         "url": "https://tripattern.com"
     },
-    "enableLicensing": true,
+    "enableLicensing": false,
     "authentication": {
         "type": "jwt"
     },
