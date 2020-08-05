@@ -18,6 +18,7 @@
     "static-expiry": ">=0.0.5"
   },
   "devDependencies": {
+    "atlas-connect": "^0.6.6",
     "ngrok": "^3.2.7"
   }
 }
